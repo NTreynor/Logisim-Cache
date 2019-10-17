@@ -1,0 +1,21 @@
+
+Read from Addr
+1. Check if the value is in the cache
+  1.1 If the value is not in the cache
+    1.1.1 Pick a block to evict based on replacement policy
+        1.1.1.1 If the block is dirty, write it to memory
+    1.1.2 Get the value from memory
+        Update dirty, valid, tag
+2. Update ages
+3. Return the value
+
+Write Val to Addr
+1. Check if the value is in the cache
+  1.1 If the value is not in the cache
+    1.1.1 Pick a block to evict based on replacement policy
+        1.1.1.1 If the block is dirty, write it to memory
+    1.1.2 Get the value from memory
+        Update dirty, valid, tag
+2. Update ages
+3. Write the value to the block in the cache
+    3.1 Make block dirty

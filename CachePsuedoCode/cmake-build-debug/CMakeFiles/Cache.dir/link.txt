@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Cache.dir/main.cpp.o CMakeFiles/Cache.dir/Cache.cpp.o CMakeFiles/Cache.dir/Block.cpp.o CMakeFiles/Cache.dir/Set.cpp.o CMakeFiles/Cache.dir/Address.cpp.o CMakeFiles/Cache.dir/Memory.cpp.o  -o Cache.exe -Wl,--out-implib,libCache.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
